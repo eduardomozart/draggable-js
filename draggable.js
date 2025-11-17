@@ -9,7 +9,6 @@ function makeDraggable(el) {
     el.addEventListener("dragend", () => {
         draggingEl = null;
         el.classList.remove("dragging");
-            
     });
 
     el.addEventListener("dragover", (e) => {

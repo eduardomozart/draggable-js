@@ -28,6 +28,18 @@ item.addEventListener("dragend", () => {
 });
 ```
 
+## Customization (CSS)
+
+You can apply CSS to customize the drag'n'drop operation:
+
+```css
+/* Feedback visual das operações de arrastar e soltar (Drag & Drop) de tarefas */
+.dragging {
+    opacity: 0.5;
+    background: #e9ecef;
+}w
+```
+
 ## Example
 
 [ToDo](https://github.com/eduardomozart/ToDo)
