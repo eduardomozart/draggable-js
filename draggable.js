@@ -12,6 +12,10 @@ function makeDraggable(el) {
     });
 
     el.addEventListener("dragover", (e) => {
+        if (el == null) {
+            return;
+        }
+
         e.preventDefault(); // habilita o drop
 
         const bounding = el.getBoundingClientRect();
